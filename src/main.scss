@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter-VariableFont_opsz\,wght.ttf') format('opentype');
+}
+
+$orange: #bc5022;
+$dark-blue: #265088;
+$blur-blue: #26507e4f;
+$light-blue: #dae2ec;
+$black: #3e3e3e;
+$text: #2c3744;
+$grey: #dadada;
+$white: #fff;
+
+* {
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background-color: $grey;
+  margin: 0rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+p,
+ul,
+li,
+button,
+a {
+  margin: 0;
+  padding: 0;
+}
